@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapfy - Свяжитесь с нами</title>
+    <link rel="stylesheet" href="/D:\КЯР_курсовая\sapfy\scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="MainPageSapfy.html" class="logo-wrapper">
+                    <div class="logo-image" style="background-image: url('images/logo2.png');"></div>
+                    <span class="logo-name">Sapfy</span>
+                </a>
+
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav class="nav-menu">
+                    <a href="MainPageSapfy.html" class="nav-link">Главная</a>
+                    <a href="mainCatalog.html" class="nav-link">Каталог</a>
+                    <a href="contacts.html" class="nav-link active">Контакты</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a class="action-item" style="text-decoration: none;">
+                        <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="10" cy="10" r="7"></circle>
+                            <line x1="21" y1="21" x2="15" y2="15"></line>
+                        </svg>
+                        <span class="action-label">Поиск</span>
+                    </a>
+                    <div class="cart-wrapper">
+                        <a href="cart.html" class="action-item" style="text-decoration: none;">
+                            <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span class="action-label">Корзина</span>
+                        </a>
+                        <span class="cart-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Hero секция -->
+            <div class="contacts-hero">
+                <div class="contacts-hero-content">
+                    <h1>Свяжитесь с нами</h1>
+                    <p>Мы всегда рады помочь вам с выбором техники и ответить на вопросы</p>
+                </div>
+            </div>
+
+            <!-- Карточки быстрой связи -->
+            <div class="quick-contacts">
+                <div class="quick-card">
+                    <h3>Позвоните нам</h3>
+                    <p>+375 (29) 735-95-77</p>
+                    <small>Ежедневно с 10:00 до 20:00</small>
+                </div>
+                <div class="quick-card">
+                    <h3>Напишите нам</h3>
+                    <p>sapfy@gmail.com</p>
+                    <small>Ответим в течение часа</small>
+                </div>
+                <div class="quick-card">
+                    <h3>Посетите нас</h3>
+                    <p>аг. Гатово, ул. Металлургическая, 5</p>
+                    <small>Пн-Пт: 10:00–20:00 | Сб-Вс: 11:00–18:00</small>
+                </div>
+            </div>
+
+            <!-- Основной контент: форма и детали -->
+            <div class="contact-main-grid">
+                <!-- Форма обратной связи -->
+                <div class="contact-form-block">
+                    <div class="form-header">
+                        <h2>Отправить сообщение</h2>
+                        <p>Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+                    </div>
+                    <form id="feedbackForm" class="modern-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="ivan@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="subject">Тема сообщения</label>
+                            <input type="text" id="subject" name="subject" placeholder="Вопрос о товаре, доставке, гарантии...">
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Подробно опишите ваш вопрос..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Отправить сообщение</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+
+                <!-- Дополнительная информация -->
+                <div class="contact-details-block">
+                    <!-- Реквизиты -->
+                    <div class="detail-card">
+                        <div class="detail-header">
+                            <span class="detail-icon"></span>
+                            <h3>Реквизиты компании</h3>
+                        </div>
+                        <div class="detail-content">
+                            <p><strong>ООО "Сапфи"</strong></p>
+                            <p>УНП: 123456789</p>
+                            <p>р/с: BY00XXXX123456789012</p>
+                            <p>БИК: 123456789</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="detail-card">
+                        <div class="detail-header">
+                            <h3>Мы в соцсетях</h3>
+                        </div>
+                        <div class="social-grid">
+                            <a href="#" class="social-btn telegram"> Telegram</a>
+                            <a href="#" class="social-btn instagram"> Instagram</a>
+                            <a href="#" class="social-btn youtube"> YouTube</a>
+                            <a href="#" class="social-btn vk"> VK</a>
+                        </div>
+                    </div>
+
+                    <!-- Доп. контакты -->
+                    <div class="detail-card">
+                        <div class="detail-header">
+                            <h3>Режим работы</h3>
+                        </div>
+                        <div class="work-hours">
+                            <div class="hour-row">
+                                <span>Понедельник - Пятница</span>
+                                <strong>10:00 – 20:00</strong>
+                            </div>
+                            <div class="hour-row">
+                                <span>Суббота - Воскресенье</span>
+                                <strong>11:00 – 18:00</strong>
+                            </div>
+                            <div class="hour-row highlight">
+                                <span>Без обеда</span>
+                                <strong>🟢 Работаем</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карта -->
+            <div class="map-wrapper">
+                <div class="map-header">
+                    <h2>Как нас найти</h2>
+                    <p>Приезжайте в наш магазин — проконсультируем и поможем с выбором</p>
+                </div>
+                <div class="map-container">
+                    <div class="map-responsive">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1353.007838975422!2d27.62758191834967!3d53.78528552323712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd3d5238623f1%3A0xca1090eb9842077b!2z0KHQntCh0JXQlNCY!5e0!3m2!1sru!2sby!4v1776768971180!5m2!1sru!2sby" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Sapfy</h4>
+                    <p>Интернет-магазин аудио- и видеотехники</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <p> +375 (29) 735-95-77</p>
+                    <p> sapfy@gmail.com</p>
+                    <p> аг. Гатово, ул. Металлургическая, 5</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+                        </svg>
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 13c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>
+                        </svg>
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.5 6.2c-.5 2.2-2.5 6.8-7.5 11.5-5 4.8-9.5 5.8-12 5.8-2.5 0-4.5-1-6-2.5.5 0 1.5.2 2.5.2 3 0 5.5-1 7.5-3-1.5-.5-3-1.5-4-3-1 .2-2 .2-3-.5.5-.5 1.5-1.5 2.5-2-2.5-1-4-3-4-5.5 1 .5 2 .5 3 .5-1.5-1-2.5-3-2-5 1.5 1 3 2 5 2.5-1-1.5-1.5-3.5-.5-5 1 1 2.5 2 4 3 .5-1.5 1.5-3 3-4 1 1 1.5 2.5 1.5 4z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="D:\КЯР_курсовая\sapfy\js\main.js"></script>
+
+
+</body>
+</html>

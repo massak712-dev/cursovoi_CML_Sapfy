@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <!-- ========== НАУШНИКИ ========== -->
+    <product category="headphones">
+        <id>1</id>
+        <name>Sony WH-1000XM6</name>
+        <price>640</price>
+        <currency>BYN</currency>
+        <desc>Беспроводные, шумоподавление</desc>
+        <image>earpop.webp</image>
+    </product>
+    <product category="headphones">
+        <id>2</id>
+        <name>Apple AirPods Pro 2</name>
+        <price>499</price>
+        <currency>BYN</currency>
+        <desc>Активное шумоподавление</desc>
+        <image>air.webp</image>
+    </product>
+    <product category="headphones">
+        <id>3</id>
+        <name>JBL Tune 770NC</name>
+        <price>320</price>
+        <currency>BYN</currency>
+        <desc>Лёгкие, 70ч работы</desc>
+        <image>ear3.webp</image>
+    </product>
+    <product category="headphones">
+        <id>4</id>
+        <name>Bose QuietComfort</name>
+        <price>780</price>
+        <currency>BYN</currency>
+        <desc>Лучшее шумоподавление</desc>
+        <image>ear4.jfif</image>
+    </product>
+
+    <!-- ========== КОЛОНКИ ========== -->
+    <product category="speakers">
+        <id>5</id>
+        <name>JBL Boombox 3</name>
+        <price>930</price>
+        <currency>BYN</currency>
+        <desc>Портативная, влагозащита</desc>
+        <image>colonkapop.webp</image>
+    </product>
+    <product category="speakers">
+        <id>6</id>
+        <name>JBL PartyBox 710</name>
+        <price>1350</price>
+        <currency>BYN</currency>
+        <desc>Мощный звук, подсветка</desc>
+        <image>colonka2.webp</image>
+    </product>
+    <product category="speakers">
+        <id>7</id>
+        <name>JBL Flip 7</name>
+        <price>890</price>
+        <currency>BYN</currency>
+        <desc>Портативная, влагозащита</desc>
+        <image>colonka3.webp</image>
+    </product>
+    <product category="speakers">
+        <id>8</id>
+        <name>Hyundai H-MC1230</name>
+        <price>1200</price>
+        <currency>BYN</currency>
+        <desc>360° звук, дизайн</desc>
+        <image>colonka4.webp</image>
+    </product>
+
+    <!-- ========== ТЕЛЕВИЗОРЫ ========== -->
+    <product category="tvs">
+        <id>9</id>
+        <name>Samsung Neo QLED</name>
+        <price>13500</price>
+        <currency>BYN</currency>
+        <desc>4K, 55", Smart TV</desc>
+        <image>tvpop.webp</image>
+    </product>
+    <product category="tvs">
+        <id>10</id>
+        <name>LG OLED evo C4</name>
+        <price>8900</price>
+        <currency>BYN</currency>
+        <desc>4K, 65", Smart TV</desc>
+        <image>tv.webp</image>
+    </product>
+    <product category="tvs">
+        <id>11</id>
+        <name>Sony Bravia X90L</name>
+        <price>10200</price>
+        <currency>BYN</currency>
+        <desc>OLED, 55", Google TV</desc>
+        <image>tv3.webp</image>
+    </product>
+    <product category="tvs">
+        <id>12</id>
+        <name>Xiaomi TV A Pro</name>
+        <price>3200</price>
+        <currency>BYN</currency>
+        <desc>4K, 50", бюджетный</desc>
+        <image>tv4.webp</image>
+    </product>
+
+    <!-- ========== СМАРТФОНЫ ========== -->
+    <product category="smartphones">
+        <id>13</id>
+        <name>iPhone 17 Pro</name>
+        <price>7600</price>
+        <currency>BYN</currency>
+        <desc>512 GB, 5G, Titanium</desc>
+        <image>mobilepop.webp</image>
+    </product>
+    <product category="smartphones">
+        <id>14</id>
+        <name>Samsung Galaxy S25</name>
+        <price>5200</price>
+        <currency>BYN</currency>
+        <desc>256 GB, AI-процессор</desc>
+        <image>mb2.webp</image>
+    </product>
+    <product category="smartphones">
+        <id>15</id>
+        <name>Xiaomi 15 Pro</name>
+        <price>3400</price>
+        <currency>BYN</currency>
+        <desc>512 GB, 120W зарядка</desc>
+        <image>mb3.webp</image>
+    </product>
+    <product category="smartphones">
+        <id>16</id>
+        <name>Google Pixel 10</name>
+        <price>4100</price>
+        <currency>BYN</currency>
+        <desc>128 GB, лучшая камера</desc>
+        <image>mb4.webp</image>
+    </product>
+
+    <!-- ========== МИКРОФОНЫ ========== -->
+    <product category="microphones">
+        <id>17</id>
+        <name>Shure SM7B</name>
+        <price>2450</price>
+        <currency>BYN</currency>
+        <desc>Студийный, для записи</desc>
+        <image>micro1.png</image>
+    </product>
+    <product category="microphones">
+        <id>18</id>
+        <name>Fifine AmpliGame AM8</name>
+        <price>540</price>
+        <currency>BYN</currency>
+        <desc>USB, для стримов</desc>
+        <image>micro2.avif</image>
+    </product>
+    <product category="microphones">
+        <id>19</id>
+        <name>HyperX QuadCast 2</name>
+        <price>720</price>
+        <currency>BYN</currency>
+        <desc>Компактный, качественный</desc>
+        <image>micro3.webp</image>
+    </product>
+    <product category="microphones">
+        <id>20</id>
+        <name>FIFINE A8</name>
+        <price>590</price>
+        <currency>BYN</currency>
+        <desc>Для геймеров, подсветка</desc>
+        <image>micro4.avif</image>
+    </product>
+
+    <!-- ========== НОУТБУКИ ========== -->
+    <product category="laptops">
+        <id>21</id>
+        <name>MacBook Pro 14"</name>
+        <price>11900</price>
+        <currency>BYN</currency>
+        <desc>M3 Pro, 16GB RAM</desc>
+        <image>nout.jfif</image>
+    </product>
+    <product category="laptops">
+        <id>22</id>
+        <name>ASUS ROG Zephyrus</name>
+        <price>8400</price>
+        <currency>BYN</currency>
+        <desc>RTX 4060, 16GB</desc>
+        <image>nout2.webp</image>
+    </product>
+    <product category="laptops">
+        <id>23</id>
+        <name>Lenovo ThinkPad</name>
+        <price>6200</price>
+        <currency>BYN</currency>
+        <desc>Для бизнеса, 32GB</desc>
+        <image>nout3.webp</image>
+    </product>
+    <product category="laptops">
+        <id>24</id>
+        <name>HONOR MAGICBOOK X16</name>
+        <price>3900</price>
+        <currency>BYN</currency>
+        <desc>Лёгкий, долгая батарея</desc>
+        <image>nout4.webp</image>
+    </product>
+</products>
